@@ -1,0 +1,56 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/hanyh/work/github/data_struct/tree/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20201206.0/
+$(TARGET)	Makefile	/^$(TARGET) : $(OBJECT)$/;"	t
+.c.o	Makefile	/^.c.o:$/;"	t
+AR	Makefile	/^AR      = @echo generating static library $@ && ar crv$/;"	m
+BIN_PATH	Makefile	/^BIN_PATH = .\/$/;"	m
+BSTree	bstree.h	/^}Node, *BSTree;$/;"	t	typeref:struct:BSTreeNode *
+BSTreeNode	bstree.h	/^typedef struct BSTreeNode {$/;"	s
+DEFINES	Makefile	/^DEFINES =$/;"	m
+FLAGS	Makefile	/^FLAGS   = -g -DDEBUG -W -Wall -fPIC$/;"	m
+GC	Makefile	/^GC      = @echo compiling $@ && gcc$/;"	m
+GCC	Makefile	/^GCC     = @echo compiling $@ && g++$/;"	m
+GCCFLAGS	Makefile	/^GCCFLAGS =$/;"	m
+HEADER	Makefile	/^HEADER  = -I.\/$/;"	m
+LIBS	Makefile	/^LIBS    =$/;"	m
+LINK	Makefile	/^LINK    = @echo linking $@ && g++$/;"	m
+LINKFLAGS	Makefile	/^LINKFLAGS =$/;"	m
+Node	bstree.h	/^}Node, *BSTree;$/;"	t	typeref:struct:BSTreeNode
+OBJECT	Makefile	/^OBJECT := bstree.o bstree_test.o$/;"	m
+TARGET	Makefile	/^TARGET = main$/;"	m
+TBL_SIZE	bstree_test.c	/^#define TBL_SIZE(/;"	d	file:
+Type	bstree.h	/^typedef int Type;$/;"	t	typeref:typename:int
+_BINARY_SEARCH_TREE_H_	bstree.h	/^#define _BINARY_SEARCH_TREE_H_$/;"	d
+arr	bstree_test.c	/^static int arr[] = {1, 5, 4, 3, 2, 6};$/;"	v	typeref:typename:int[]	file:
+bstree_delete	bstree.c	/^static Node* bstree_delete(BSTree tree, Node *z)$/;"	f	typeref:typename:Node *	file:
+bstree_insert	bstree.c	/^static Node* bstree_insert(BSTree tree, Node *z)$/;"	f	typeref:typename:Node *	file:
+bstree_maximum	bstree.c	/^Node* bstree_maximum(BSTree tree)$/;"	f	typeref:typename:Node *
+bstree_minimum	bstree.c	/^Node* bstree_minimum(BSTree tree)$/;"	f	typeref:typename:Node *
+bstree_predecessor	bstree.c	/^Node* bstree_predecessor(Node *x)$/;"	f	typeref:typename:Node *
+bstree_search	bstree.c	/^Node *bstree_search(BSTree x, Type key)$/;"	f	typeref:typename:Node *
+bstree_successor	bstree.c	/^Node* bstree_successor(Node *x)$/;"	f	typeref:typename:Node *
+clean	Makefile	/^clean:$/;"	t
+create_bstree_node	bstree.c	/^static Node* create_bstree_node(Type key, Node *parent, Node *left, Node * right)$/;"	f	typeref:typename:Node *	file:
+delete_bstree	bstree.c	/^Node* delete_bstree(BSTree tree, Type key)$/;"	f	typeref:typename:Node *
+destroy_bstree	bstree.c	/^void destroy_bstree(BSTree tree)$/;"	f	typeref:typename:void
+inorder_bstree	bstree.c	/^void inorder_bstree(BSTree tree)$/;"	f	typeref:typename:void
+insert_bstree	bstree.c	/^Node* insert_bstree(BSTree tree, Type key)$/;"	f	typeref:typename:Node *
+install	Makefile	/^install: $(TARGET)$/;"	t
+iterative_bstree_search	bstree.c	/^Node* iterative_bstree_search(BSTree x, Type key)$/;"	f	typeref:typename:Node *
+key	bstree.h	/^	Type key;			\/\/ key value$/;"	m	struct:BSTreeNode	typeref:typename:Type
+left	bstree.h	/^	struct BSTreeNode *left;	\/\/ left child$/;"	m	struct:BSTreeNode	typeref:struct:BSTreeNode *
+main	bstree_test.c	/^int main(void)$/;"	f	typeref:typename:int
+parent	bstree.h	/^	struct BSTreeNode *parent;	\/\/ parent node$/;"	m	struct:BSTreeNode	typeref:struct:BSTreeNode *
+postorder_bstree	bstree.c	/^void postorder_bstree(BSTree tree)$/;"	f	typeref:typename:void
+preorder_bstree	bstree.c	/^void preorder_bstree(BSTree tree)$/;"	f	typeref:typename:void
+print_bstree	bstree.c	/^void print_bstree(BSTree tree, Type key, int direction)$/;"	f	typeref:typename:void
+right	bstree.h	/^	struct BSTreeNode *right;	\/\/ right child$/;"	m	struct:BSTreeNode	typeref:struct:BSTreeNode *
